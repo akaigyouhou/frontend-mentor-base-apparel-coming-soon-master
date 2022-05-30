@@ -1,0 +1,54 @@
+main {
+    padding-top: 4.15em;
+    text-align: center;
+    padding-left: 1.95em;
+    padding-right: 1.95em;
+    padding-bottom: 5.7em;
+    background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 85%, 96%));
+}
+
+main h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.27em;
+    line-height: 1.05;
+    font-weight: 600;
+    margin-bottom: 0.39em;
+    color: var(--Dark-Grayish-Red);
+}
+
+main h1 > span {
+    font-weight: 300;
+    color: var(--Desaturated-Red);
+}
+
+main p {
+   font-size: 0.88em;
+   line-height: 1.55;
+   margin-bottom: 2.4em;
+   color: var(--Desaturated-Red);
+}
+
+@media (min-width: 800px) {
+    main {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        padding-top: 4.4em;
+        padding-left: 10.3em;
+        padding-right: 13.8em;
+        text-align: start;
+        background-image: none;
+    }
+
+    main h1 {
+        font-size: 4em;
+        line-height: 1.08;
+        margin-bottom: 0.34em;
+    }
+
+    main p {
+        font-size: 1.01em;
+        line-height: 1.7;
+        margin-bottom: 2.5em;
+    }
+}

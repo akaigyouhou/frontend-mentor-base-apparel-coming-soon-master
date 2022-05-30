@@ -1,0 +1,103 @@
+.input {
+    height: 3em;
+    position: relative;
+    padding-top: 0.7em;
+    padding-bottom: 0.9em;
+}
+
+.input input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-left: 1.65em;
+    font-size: 0.87em;
+    font-family: "JosefinSans", sans-serif;
+    border-radius: 1.8em;
+    border: 0.1em solid var(--Desaturated-Red);
+    background-color: transparent;
+}
+
+.input input:focus {
+    outline-color: var(--Soft-Red);
+}
+
+::-webkit-input-placeholder {
+    color: var(--Desaturated-Red);
+}
+
+::-moz-placeholder {
+    color: var(--Desaturated-Red);
+}
+
+:-moz-placeholder {
+    color: var(--Desaturated-Red);
+}
+
+:-ms-input-placeholder {
+    color: var(--Desaturated-Red);
+}
+
+
+.input button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 4.9em;
+    border-radius: 1.8em;
+    border: none;
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    box-shadow: 0 15px 20px -2px hsl(0, 80%, 86%)
+}
+.input button:focus {
+    outline: 0;
+}
+
+@media (min-width: 800px) {
+    .input {
+        height: 3.5em;
+        margin-bottom: 0.6em;
+    }
+
+    .input input {
+        height: 3.6em;
+        line-height: 3.6em;
+        padding-left: 2em;
+        /* letter-spacing: 0.04em; */
+        border-radius: 2em;
+        font-size: 0.97em;
+        font-weight: 600;
+        /* min-width: 0; */
+        /* width: 28em; */
+    }
+    .input .error {
+        border: 3px solid var(--Soft-Red) 
+    }
+
+    .input button {
+        width: 7.4em;
+        border-radius: 2em;
+        cursor: pointer;
+    }
+    .input button:hover {
+        background-image: linear-gradient(hsl(0, 69%, 90%), hsl(0, 69%, 90%));
+        box-shadow: 0 15px 20px 5px rgb(218, 182, 182);
+    }
+    .input button > img {
+        padding-top: 0.3em;
+        padding-left: 0.2em;
+    }
+    .error-icon {
+        position: absolute;
+        top: 1em;
+        right: 7.1em;
+    }
+    .error-info {
+        font-size: 0.8em;
+        padding-left: 2.4em;
+        color: var(--Desaturated-Red);
+        font-weight: 600;
+    }
+}
