@@ -27,6 +27,10 @@ Users should be able to:
   - The `input` field is empty
   - The email address is not formatted correctly
 
+### Screenshot
+
+![](./screenshot.png)
+
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/using-react-with-vanilla-css-flXOJV846E](https://www.frontendmentor.io/solutions/using-react-with-vanilla-css-flXOJV846E)
@@ -44,7 +48,7 @@ Users should be able to:
 
 ### Continued development
 
-- The main problem here is the different behavior in input between chrome and firefox. In firfox the input seems does not enlarge to the parent element thought I use absolute position with top/right/left/bottom set to 0.
+- The main problem here is the different behavior in input between chrome and firefox. In firfox the input seems does not enlarge to the parent element thought I use absolute position with top/right/left/bottom set to 0. After set the width to 100% for input. The result seems ok.
 
 ## Author
 
