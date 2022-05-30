@@ -10,7 +10,6 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -48,7 +47,7 @@ Users should be able to:
 
 ### Continued development
 
-- The main problem here is the different behavior in input between chrome and firefox. In firfox the input seems does not enlarge to the parent element thought I use absolute position with top/right/left/bottom set to 0. After set the width to 100% for input. The result seems ok.
+- The main problem here is the different behavior in input between chrome and firefox. In firfox the input seems does not enlarge to the parent element thought I use absolute position with top/right/left/bottom set to 0. After set the width of input to 100%. The result seems ok.
 
 ## Author
 
