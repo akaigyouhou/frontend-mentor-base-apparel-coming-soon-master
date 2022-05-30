@@ -9,19 +9,23 @@
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
     padding-left: 1.65em;
     font-size: 0.87em;
     font-family: "JosefinSans", sans-serif;
     border-radius: 1.8em;
     border: 0.1em solid var(--Desaturated-Red);
     background-color: transparent;
+    width: 100%;
 }
 
+/* .input input {
+    outline: none;
+} */
 .input input:focus {
     outline-color: var(--Soft-Red);
+    outline-style: solid;
 }
+
 
 ::-webkit-input-placeholder {
     color: var(--Desaturated-Red);
