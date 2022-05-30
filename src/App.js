@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/Header';
-import Section from './components/Section';
+import Picture from './components/Picture';
 import Main from './components/Main';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <div className="left"></div>
       <Header />
-      <Section />
+      <Picture />
       <Main />
     </div>
   );
